@@ -23,6 +23,8 @@ public class SpringDataJdbcApplication
     @PostConstruct
     public void checkDB()
     {
+        // Code for
+
 //        dbService.findAllFilmCategoriesSortByName().forEach(category ->
 //        System.out.println(category.getName()));
 //        dbService.findAllFilmByCategory("Horror").forEach(film -> System.out.println(film.getTitle()));
@@ -33,7 +35,7 @@ public class SpringDataJdbcApplication
 //        System.out.println(dbService.findCustomerAndAddress(1L));
 //        System.out.println(dbService.findAllStaffInfo());
 //        dbService.findAllFilmByActorFirstNameAndLastName("Penelope","Guiness").forEach(film -> System.out.println(film.getTitle()));
-        dbService.findAllPaymentByCustomer(1L).forEach(payment -> System.out.println(payment.getPaymentDate() + " payment amount: " + payment.getAmount()));
+//        dbService.findAllPaymentByCustomer(1L).forEach(payment -> System.out.println(payment.getPaymentDate() + " payment amount: " + payment.getAmount()));
     }
 
 
